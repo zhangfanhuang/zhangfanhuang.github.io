@@ -1,0 +1,13 @@
+---
+title: "About"
+---
+
+About Zhangfan (Andy) Huang.
+
+**Zhangfan (Andy) Huang is a PhD student in Strategic Management major in JSOM.**
+
+```{r}
+1 + 1
+```
+
+![](Screenshot1.png){width="300" fig-align="center"}
