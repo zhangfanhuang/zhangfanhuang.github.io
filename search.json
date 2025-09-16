@@ -26,5 +26,12 @@
     "title": "About",
     "section": "",
     "text": "About Zhangfan (Andy) Huang.\nZhangfan (Andy) Huang is a PhD student in Strategic Management major in JSOM"
+  },
+  {
+    "objectID": "Assignment2.html#running-code",
+    "href": "Assignment2.html#running-code",
+    "title": "Assignment2",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
   }
 ]
