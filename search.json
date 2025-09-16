@@ -14,6 +14,13 @@
     "text": "Assignment-1 Notes\nThis personal academic website was created using RStudio Quarto, then deployed to GitHub Pages for public access. The website adopts the default Quarto theme, as demonstrated by the professor in class, providing a clean and professional appearance suitable for a PhD student’s academic profile.\nThe website’s navigation bar includes four tabs to connect visitors to different content areas:\nHome – This landing page presents a brief overview with a red-colored scatter plot, showcasing data visualization capabilities and emphasizing the scholarly presentation expected in academia.\nAbout – This section features a short self-introduction and an academic-style professional headshot, contributing to the author’s academic branding and authenticity.\nAndy’s CV – This tab links to the author’s LinkedIn profile and attaches a professional resume, providing details on academic background, industry experience, and research interests.\nAssignment – This tab archives course-related work, beginning with Assignment 1, serving as a record of academic progress.\nOverall, this website reflects the dual focus of academic rigor and professional presentation, helping position the author effectively in the research and academic community."
   },
   {
+    "objectID": "Assignment2.html#running-code",
+    "href": "Assignment2.html#running-code",
+    "title": "Assignment2",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Zhangfan (Andy) Huang",
@@ -28,8 +35,8 @@
     "text": "About Zhangfan (Andy) Huang.\nZhangfan (Andy) Huang is a PhD student in Strategic Management major in JSOM"
   },
   {
-    "objectID": "Assignment2.html#running-code",
-    "href": "Assignment2.html#running-code",
+    "objectID": "assignment2.html#running-code",
+    "href": "assignment2.html#running-code",
     "title": "Assignment2",
     "section": "Running Code",
     "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."

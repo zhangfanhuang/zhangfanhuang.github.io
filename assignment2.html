@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Assignment – Zhangfan (Andy) Huang</title>
+<title>Assignment2 – Zhangfan (Andy) Huang</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -101,11 +135,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Andy’s CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./assignment.html" aria-current="page"> 
+    <a class="nav-link" href="./assignment.html"> 
 <span class="menu-text">Assignment</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./assignment2.html"> 
+    <a class="nav-link active" href="./assignment2.html" aria-current="page"> 
 <span class="menu-text">Assignment2</span></a>
   </li>  
 </ul>
@@ -119,15 +153,22 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#quarto" id="toc-quarto" class="nav-link active" data-scroll-target="#quarto">Quarto</a></li>
+  <li><a href="#running-code" id="toc-running-code" class="nav-link" data-scroll-target="#running-code">Running Code</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Assignment</h1>
+<h1 class="title">Assignment2</h1>
 </div>
 
 
@@ -144,16 +185,33 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>Assignment-1 Notes</strong></p>
-<p>This personal academic website was created using RStudio Quarto, then deployed to GitHub Pages for public access. The website adopts the default Quarto theme, as demonstrated by the professor in class, providing a clean and professional appearance suitable for a PhD student’s academic profile.</p>
-<p>The website’s navigation bar includes four tabs to connect visitors to different content areas:</p>
-<p>Home – This landing page presents a brief overview with a red-colored scatter plot, showcasing data visualization capabilities and emphasizing the scholarly presentation expected in academia.</p>
-<p>About – This section features a short self-introduction and an academic-style professional headshot, contributing to the author’s academic branding and authenticity.</p>
-<p>Andy’s CV – This tab links to the author’s LinkedIn profile and attaches a professional resume, providing details on academic background, industry experience, and research interests.</p>
-<p>Assignment – This tab archives course-related work, beginning with Assignment 1, serving as a record of academic progress.</p>
-<p>Overall, this website reflects the dual focus of academic rigor and professional presentation, helping position the author effectively in the research and academic community.</p>
+<section id="quarto" class="level2">
+<h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="RPlot.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="600"></p>
+</figure>
+</div>
+</section>
+<section id="running-code" class="level2">
+<h2 class="anchored" data-anchor-id="running-code">Running Code</h2>
+<p>When you click the <strong>Render</strong> button a document will be generated that includes both content and the output of embedded code. You can embed code like this:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2</code></pre>
+</div>
+</div>
+<p>You can add options to executable code like this</p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 4</code></pre>
+</div>
+</div>
+<p>The <code>echo: false</code> option disables the printing of code (only output is displayed).</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
