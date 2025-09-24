@@ -1,0 +1,13 @@
+---
+title: "Zhangfan (Andy) Huang"
+---
+
+Welcome to the world of research!!!
+
+*This is a Quarto website.*
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+```{r}
+plot(iris, pch=20, cex=.8, col="firebrick")
+```

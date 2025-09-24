@@ -1,0 +1,19 @@
+---
+title: "Assignment"
+---
+
+**Assignment-1 Notes**
+
+This personal academic website was created using RStudio Quarto, then deployed to GitHub Pages for public access. The website adopts the default Quarto theme, as demonstrated by the professor in class, providing a clean and professional appearance suitable for a PhD student’s academic profile.
+
+The website’s navigation bar includes four tabs to connect visitors to different content areas:
+
+Home – This landing page presents a brief overview with a red-colored scatter plot, showcasing data visualization capabilities and emphasizing the scholarly presentation expected in academia.
+
+About – This section features a short self-introduction and an academic-style professional headshot, contributing to the author’s academic branding and authenticity.
+
+Andy’s CV – This tab links to the author’s LinkedIn profile and attaches a professional resume, providing details on academic background, industry experience, and research interests.
+
+Assignment – This tab archives course-related work, beginning with Assignment 1, serving as a record of academic progress.
+
+Overall, this website reflects the dual focus of academic rigor and professional presentation, helping position the author effectively in the research and academic community.
